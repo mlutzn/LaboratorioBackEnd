@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: LaboratorioBackEnd
+  datasource:
+    url: jdbc:postgresql://localhost:5432/laboratoriodb
+    username: laboratorio
+    password: laboratorio
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
