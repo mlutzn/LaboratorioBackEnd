@@ -26,8 +26,9 @@ services:
     ports:
       - "8180:8080"
     volumes:
-      - ./keycloak/realm-veterinaria.json:/opt/keycloak/data/import/realm-veterinaria.json:ro
+      - ./keycloak/realm-laboratoriobackend.json:/opt/keycloak/data/import/realm-laboratoriobackend.json:ro
       - ./keycloak/start.sh:/opt/keycloak/start.sh:ro
 volumes:
   pgdata:
+
 
