@@ -411,7 +411,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{ \n    \"nombre\": \"Fanta 600ml\",\n    \"descripcion\": \"Refresco\",\n    \"precio\": 1200.50,\n    \"cantidad\": 25\n}",
+                  "raw": "{ \n    \"nombre\": \"Fanta 600ml\",\n    \"descripcion\": \"Refresco\",\n    \"precio\": 1200.50,\n    \"cantidad\": 25,\n    \"categoriaId\": 1\n}",
                   "options": {
                     "raw": {
                       "language": "json"
